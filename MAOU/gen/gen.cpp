@@ -28,7 +28,7 @@ string uname(int mx = 31)
 
 
 void gen(vector<int> v, int mx=10)
-{
+{assert( v.size() <= 100000 );
     static int cid = 0;
     cid++;
     
@@ -93,7 +93,7 @@ int main()
     
     cout<<"Case2 val is prime"<<endl;
     {
-        for(int n:{100,1000,10000,100000,1000000})
+        for(int n:{100,1000,10000,100000,100000})
         {
             vector<int> a(n);
             for(int &i:a) i = plist[pindex(mt)];
@@ -157,14 +157,14 @@ int main()
     
     cout<<"Case6 n,id<=1000000"<<endl;
     {
-        vector<int> a(1000000);
+        vector<int> a(100000);
         for(int &i:a) i = plist[pindex(mt)];
         gen(a,5);
         
         for(int i=0;i<2;++i)
         {
             a.clear();
-            for(int i=0;i<1000000;++i)
+            for(int i=0;i<100000;++i)
                 a.emplace_back(fullid(mt));
             gen(a,5);
         }
