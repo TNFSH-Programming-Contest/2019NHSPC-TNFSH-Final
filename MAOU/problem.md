@@ -1,5 +1,5 @@
 ---
-problemLabel: A
+problemLabel: B
 problemName: 魔王的野望
 problemId: MAOU
 ---

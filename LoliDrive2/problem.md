@@ -1,5 +1,5 @@
 ---
-problemLabel: A
+problemLabel: C
 problemName: 蘿莉控的雲端硬碟二
 problemId: LoliDrive2
 ---

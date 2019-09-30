@@ -1,5 +1,5 @@
 ---
-problemLabel: C
+problemLabel: D
 problemName: 現充爆炸魔法C4
 problemId: C4
 ---
