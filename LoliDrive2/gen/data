@@ -1,0 +1,41 @@
+#@subtask samples
+#manual sample-01.in
+#manual sample-02.in
+#uses a manually generated test from manual directory
+
+# gen seed n q branchmax branchnum randomcost special
+
+@subtask line
+gen line1 100000 10 1 1 0 -1
+gen line2 100000 10 1 1 1 -1
+gen line3 100000 100 1 1 1 -1
+gen line4 100000 100 1 1 0 -1
+gen line5 100000 10000 1 1 1 -1
+
+@subtask special
+gen special1 100000 15 5 0 0 20
+gen special2 100000 10 10 0 0 20
+gen special3 100000 9 3 0 0 20
+gen special4 100000 5 3 0 0 20
+gen special5 100000 20 100 0 0 20
+
+@subtask small18
+gen small181 18 5 2 0 0 -1
+gen small182 18 5 3 0 0 -1
+gen small183 18 2 3 0 0 -1
+gen small184 18 3 3 0 0 -1
+gen small185 18 18 3 0 0 -1
+gen small186 18 3 2 2 0 -1
+gen small186 18 2 2 2 0 -1
+
+@subtask normal
+gen normal1 100000 3 3 0 0 -1
+gen normal2 100000 4 3 0 0 -1
+gen normal3 100000 10 3 0 0 -1
+gen normal4 100000 100 5 0 0 -1
+gen normal5 100000 100 2 0 0 -1
+gen normal6 100000 10 5 0 0 -1
+gen normal7 100000 10 5 0 0 -1
+gen normal8 100000 10 2 2 0 -1
+gen normal9 100000 10 2 0 0 -1
+gen normal10 100000 10000 5 0 0 -1

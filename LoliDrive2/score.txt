@@ -1,0 +1,7 @@
+GroupMin
+[[11, 5], [23, 5], [21, 7], [34, 10]]
+
+reference
+https://cms.readthedocs.io/en/v1.4/Score%20types.html
+#[[score1,t1],[score2,t2]]
+
