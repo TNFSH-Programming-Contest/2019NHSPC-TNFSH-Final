@@ -96,7 +96,7 @@ overlord 30
 firefox 36
 queen_harpy 51
 slime_princess 44
-red-black(alraune) 86
+red-black(alraune) 91
 ```
 
 ### 範例輸出
